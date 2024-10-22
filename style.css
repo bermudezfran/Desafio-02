@@ -8,7 +8,8 @@ body.body-bg {
   text-align: center;
 }
 
-.img-principal {
+.img-principal, .img-prop {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   height: auto;
   width: 30%;
 }
@@ -43,13 +44,6 @@ h3.subsection, h5.subsubsection {
   color: #0096c7;
 }
 
-img {
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 20%;
-  min-width: 100%;
-}
-
 .main {
   padding: 20px;
   background-color: #f9f9f9;
@@ -62,4 +56,10 @@ ul.list li {
   color: #023e8a;
   font-weight: 500;
   list-style: none;
+}
+
+.info {
+  font-size: 13px;
+  font-weight: 700;
+  font-style: italic;
 }
