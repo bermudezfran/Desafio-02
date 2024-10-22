@@ -1,8 +1,65 @@
-.body-bg {
-  background-color: red;
+/* General */
+body.body-bg {
+  background: linear-gradient(135deg, #f0f4f8, #ffffff);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 2em;
+  text-align: center;
 }
 
-.title {
-  color: blue;
-  font-size: 20px;
+.img-principal {
+  height: auto;
+  width: 30%;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+h1, h2, h3, h5 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+
+h1.title {
+  font-size: 3em;
+  font-weight: bold;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2.subtitle {
+  font-size: 2em;
+  color: #0077b6;
+}
+
+h3.subsection, h5.subsubsection {
+  font-size: 1.5em;
+  color: #0096c7;
+}
+
+img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 20%;
+  min-width: 100%;
+}
+
+.main {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  margin: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+ul.list li {
+  color: #023e8a;
+  font-weight: 500;
+  list-style: none;
 }
